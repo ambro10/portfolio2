@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Seba filmuje!</title>
+    
+    <link rel="stylesheet" type="text/css" href="css\desktop.css">
+    <link rel="stylesheet" type="text/css" href="css\mobile.css">
+    <link rel='stylesheet prefetch' href='http://cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css'>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.0/js/lightbox-plus-jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.0/css/lightbox.min.css">
+    <link rel="stylesheet" type="text/css" href="css\slideshow.css">
+    <script src="https://kit.fontawesome.com/67bbd4c9b1.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+</head>
+<body>
+    <div class="background">
+    <section class="banner" id="sec">
+        <header>
+            <a href="#" class="logo">SEBA<span class="title2">filmuje</span></a>
+            <div id="toggle" onclick="toggle()"></div>
+            <div id="navigation"> 
+                <ul>
+                    <li><a id="pl" onclick="changeLanguagePL()"><img src="icons/poland.jpg"></a></li>
+                    <li><a id="ang" onclick="changeLanguageENG()"><img src="icons/britain.png"></a></li>
+                    <li class="main-link"><a href="#main" id="listA">About</a></li>
+                    <li class="services-link"><a href="#services-section" id="listS">Services</a></li>
+                    <li class="gallery-link"><a href="#gallery-section" id="listG">Gallery</a></li>
+                    <li class="contact-link"><a href="#contact" id="listC">Contact</a></li>
+                </ul>           
+            </div>
+        </header>
+                    
+                    <div class="content">
+                        <h2 id="hello">Hello, <br>I'm <span>Sebastian Ambrochowicz</span></h2>
+                        <p id="whoami"> Junior frontend and Python developer, <br/> Licensed Drone Operator
+                        </p>
+                        <a href="CV_Sebastian_Ambrochowicz.pdf" download id="km">Download CV</a>
+                    </div>
+                    <div class="me"><img src="images/ja2.png"></div>
+                    <div class="me-mobile"><img src="images/me-tablet.png"></div>
+                    <ul class="sci">
+                        <li><a href="https://www.facebook.com/sebastian.ambrochowicz"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a  href="https://github.com/ambro10"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                        <li><a  href="https://www.instagram.com/seba_ambro/?hl=pl"><i class="fab fa-instagram"></i></a></li>
+                        <li><a  href="https://www.youtube.com/channel/UCXqGZaKvuKv9BHqST3QtFHw/about?view_as=subscriber"><i class="fab fa-youtube"></i></a></li>
+                    </ul>
+            </section>
+            <div class="skew">
+            </div>
+    </header>
+</section>
+</div>
+    <div class="home" id="home">
+        <h1 id="welcome-title">Nice to host you on my website!</h1>
+    <div class="main-description">
+            <h2 id="htext1">FEW WORDS ABOUT ME</h2>
+            <h5 id="htext2">SO WHO AM I AND WHAT DO I DO?</h5>
+            <p>|</p>
+            <p>|</p>
+            <p>|</p>
+            <p id="htext3"> My name is Sebastian Ambrochowicz. <br/>
+                I have recently finished technical college and currently I will plan to study in this field. </br>
+                Designing websites and filming is my passion and way of life. <br/>
+                If you care about coherent and eye-catching projects, you've come to the right place! <br/>
+                I will gladly prepare and send a quote.</p>
+            
+    </div>
+    <div class="drone-main"><img src="icons\dron2.png"></div>
+    </div>
+    <section class="services-section" id="services">
+        <div class="inner-width">
+            <h1 class="section-title" id="serv-title">< <span style="color:orange">Services</span>/><div class="border"></div></h1>
+            <div class="services-container">
+                <div class="service-box">
+                    <div class="service-title" id="serv1"><span>Creating sites</span></div>
+                    <div class="service-desc" id="serv1t">
+                        The most I value transparency and functionality,
+                         so every page I create is characterized by this. 
+                         The main languages ​​I use are: HTML, CSS, Javascript and various useful libraries.
+                    </div>
+                    <div class="b1"></div>
+                </div>
+                
+
+                <div class="service-box b2">
+                    <div class="service-title" id="serv2">Website management</div>
+                    <div class="service-desc" id="serv2t">
+                        I will also be happy to undertake guidance or modification
+                        site already created for customer needs.
+                    </div>
+                </div>
+
+                <div class="service-box b3">
+                    <div class="service-title" id="serv3">FILMING
+                        AND DRONE SHOOTING</div>
+                    <div class="service-desc" id="serv3t">
+                        I have been a licensed operator of unmanned aerial ships since 2018,
+                        both in sight and out of sight. I also have a check-in for
+                        multirotors up to 25 kg in weight. The shots from my hand are professional,
+                        and hence smooth and interesting.
+
+                    </div>
+                </div>
+
+                <div class="service-box b4">
+                    <div class="service-title" id="serv4">Data Science</div>
+                    <div class="service-desc" id="serv4t">
+                        This is a specialization that I decided to choose in college because
+                        of my interest in the language that is Python. I think that this is
+                        an extremely interesting field of computer science,
+                        which I would gladly choose in further development.
+                    </div>
+                </div>    
+            </div>
+        </div>
+
+    
+    </section>
+    
+    
+
+    <div class="gallery-section" id="gallery">
+            <div class="inner-width">
+              <h1 id="gtitle">< <span style="color:var(--primary-color)">Gallery</span> /><div class="border"></div></h1>
+              <div class="gallery">
+      
+                <a href="gallery/dzwigi.jpg" class="section-image"data-lightbox="mygallery">
+                  <img src="gallery/dzwigi.jpg" alt="">
+                </a>
+      
+                <a href="gallery/osiedle.jpg" class="section-image"data-lightbox="mygallery">
+                  <img src="gallery/osiedle.jpg" alt="">
+                </a>
+      
+                <a href="gallery/budowa.jpg" class="section-image"data-lightbox="mygallery">
+                  <img src="gallery/budowa.jpg" alt="">
+                </a>
+      
+                <a href="gallery/osiedle2.jpg" class="section-image"data-lightbox="mygallery">
+                  <img src="gallery/osiedle2.jpg" alt="">
+                </a>
+      
+                <a href="gallery\plaza2.jpg" class="section-image" data-lightbox="mygallery">
+                  <img src="gallery\plaza2.jpg" alt="">
+                </a>
+
+                <a href="gallery\osiedleZGory.jpg" class="section-image" data-lightbox="mygallery">
+                        <img src="gallery\osiedleZGory.jpg" alt="">
+                </a>
+
+                <a href="gallery\zachod.jpg" class="section-image" data-lightbox="mygallery">
+                    <img src="gallery\zachod.jpg" alt="">
+                </a>
+                <a href="gallery\latarnia.jpg" class="section-image" data-lightbox="mygallery">
+                    <img src="gallery\latarnia.jpg" alt="">
+                </a>
+                <a href="gallery\asdasd.jpg" class="section-image" data-lightbox="mygallery">
+                    <img src="gallery\asdasd.jpg" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+    
+    <section class="gallery-mobile" id="gallerym">
+            <h1 class="section-title" id="gtitle">< <span style="color: var(--primary-color)">Gallery</span>/></h1>
+        <div class="photo-mobile">
+            <a href="gallery/osiedle2.jpg" data-lightbox="mygallery"><img src="gallery/osiedle2.jpg"></a>
+        </div>        
+        <div class="photo-mobile">
+            <a href="gallery/osiedle.jpg" data-lightbox="mygallery"><img src="gallery/osiedle.jpg"></a>
+        </div>
+        <div class="photo-mobile">
+          <a href="gallery/dzwigi.jpg" data-lightbox="mygallery"><img src="gallery/dzwigi.JPG"></a>
+        </div>
+        <div class="photo-mobile">
+            <a href="gallery\osiedleZGory.jpg" data-lightbox="mygallery"><img src="gallery\osiedleZGory.jpg"></a>
+        </div>
+        <div class="photo-mobile">
+            <a href="gallery\zachod.jpg" data-lightbox="mygallery"><img src="gallery\zachod.jpg"></a>
+        </div>
+        <div class="photo-mobile">
+            <a href="gallery\latarnia.jpg" data-lightbox="mygallery"><img src="gallery\latarnia.JPG"></a>
+        </div>
+        <div class="photo-mobile">
+            <a href="gallery\asdasd.jpg" data-lightbox="mygallery"><img src="gallery\asdasd.JPG"></a>
+        </div>
+        <div class="photo-mobile">
+            <a href="gallery\plaza2.jpg" data-lightbox="mygallery"><img src="gallery\plaza2.JPG"></a>
+        </div>
+
+    </section>
+    <section class="contact" id="con">
+            <div class="contact-header" id="ctitle"><h1>< <span style="color:var(--primary-color)">CONTACT</span> /></h1></div>
+        <div class="contact-text">
+            <p><h4 id="ctext">Do you want to use my services? <br/>
+                Write to me! <br/>
+                I will try to answer as soon as possible! </p> <br/>
+                <p> Contact by phone possible between 16-22 </p> </h4>
+            <ul class="contact-list">
+                <li style="display: none;"><a href="tel:+48600393716" itemprop="telephone"><i class="fa fa-phone">&emsp; (+48) 600 393 716</i></a></li>
+                <li><a href="mailto:sebaambro00@gmail.com" itemprop="telephone"><i class="fa fa-envelope">&emsp; sebaambro00@gmail.com</i></a></li>
+            </ul>
+
+            </div>
+        <div class="container">  
+            <form id="contact">
+              <h3 id="ftitle">Contact form</h3>
+              <h4 id="ftext">Contact me and get a reply within 24 hours</h4>
+              
+              <fieldset>
+                <input placeholder="Your address e-mail" type="email" tabindex="2" name="email" id="fma" required>
+              </fieldset>
+              <fieldset>
+                <input placeholder="Your phone number" type="tel" tabindex="3" name="phone" id="fph" required>
+              </fieldset>
+              <fieldset>
+                <input placeholder="Subject" type="text" tabindex="1" name="subject" id="fsub" required >
+              </fieldset>
+              <fieldset>
+                <textarea placeholder="Message content" tabindex="5" name="comment" id="msgcontent" required></textarea>
+              </fieldset>
+              <fieldset>
+                <button name="submit" type="submit" id="contact-submit">Not working</button>
+              </fieldset>
+            </form>
+           
+        </div>
+    </section>
+
+
+
+    <footer>
+        <div class="footer-icons">
+
+                    <a class="btn-footer" href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn-footer" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="btn-footer" href="#"><i class="fab fa-google"></i></a>
+                    <a class="btn-footer" href="#"><i class="fab fa-instagram"></i></a>
+                    <a class="btn-footer" href="#"><i class="fab fa-youtube"></i></a>
+                
+            </div>
+        <div class="footer-text">©2020 by Sebastian Ambrochowicz</div>
+    </footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/javascript.js"></script>
+    <script src="js/parralax.js"></script>
+    <script src="js/index.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js'></script>
+    <script src='http://cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js'></script>
+</body>
+</html>
