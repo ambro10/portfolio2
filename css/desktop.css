@@ -258,6 +258,7 @@ header #toggle:after {
     background: rgb(16,16,16);
     color: white;
     text-decoration: none;
+    margin-right: 10px;
 }
 
 .sci li a:hover {
