@@ -10,24 +10,11 @@
         padding: 100px 20px 150px;
         height: 100vh;
         background-size: auto;
-        display: grid;
-        grid-template-columns: auto;
-        grid-template-rows:20% 50% 30%;
-        grid-template-areas:
-            "header"
-            "text"
-            "sci";
     }
 
-    .content {
-        grid-area: text;
-    }
 
     .banner h2 {
         font-size: 1.8em;
-    }
-    header {
-        grid-area: header;
     }
 
     .me img {
@@ -111,7 +98,6 @@
         top: 70%;
         background: rgb(16, 16, 16);
         flex-direction: row;
-        grid-area: sci;
 
         
         
