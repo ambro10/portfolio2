@@ -255,7 +255,7 @@ header #toggle:after {
     text-emphasis: none;
     border: 1px solid #fff;
     margin: 10px 0 0;
-    background: black;
+    background: rgb(16,16,16);
     color: white;
     text-decoration: none;
 }
